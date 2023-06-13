@@ -44,8 +44,10 @@ public class ForTest2 {
 			}
 			System.out.print("\n");
 		}
-		//별로 5줄 피라미드 
-		
+		//별로 5줄 피라미드
+		//int blank =
+		//for (int i=1; i<=5; i++)
+		//	for (int )
 		//별로 역삼각형
 		
 		//
