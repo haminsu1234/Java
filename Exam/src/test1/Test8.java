@@ -10,10 +10,10 @@ public class Test8 {
 	
 	for (int i=0; i<n; i++) {
 		
-		for (int j=n-1;j>=n-i;j-- ) {
+		for (int j=n-1;j>i;j-- ) {
 			System.out.print(" ");
 		}
-		for(int j=0 ; j<=(i*2-1);j++) {
+		for(int j=0 ; j<=2*i;j++) {
 			System.out.print("★");
 		}
 
