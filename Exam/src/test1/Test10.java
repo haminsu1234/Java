@@ -2,7 +2,7 @@ package test1;
 /**
  * 날짜 :2023/06/13
  * 이름 : 하민수
- *
+ * 피보나치수열
  */
 public class Test10 {
 public static void main(String[] args) {

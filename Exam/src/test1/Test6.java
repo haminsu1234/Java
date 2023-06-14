@@ -17,11 +17,12 @@ public class Test6 {
 		
 		System.out.print("y값입력 : ");
 		int y =scan.nextInt();
-		
+						// 조건 ? 참 : 거짓
 		String reslut = x > y ? "x가 더 큽니다." : "y가 더 큽니다";
 		
 		System.out.println(reslut);
 		
+		scan.close();
 	}
 	
 	
