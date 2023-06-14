@@ -10,9 +10,9 @@ public static void main(String[] args) {
 	int count = 0;
 	for (int i=1; i<=9; i++) {
 		if(i<=5) {
-			count+=1;
+			count+=1; //마름모의 윗부분 (정삼각형부분)
 		}else {
-			count-=1;
+			count-=1; // 마름모의 아랫부분 (역삼각형부분)
 		}
 		
 	for (int j=1 ; j<=5-count ; j++) {

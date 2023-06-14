@@ -10,10 +10,10 @@ public class Test8 {
 	
 	for (int i=0; i<n; i++) {
 		
-		for (int j=n-1;j>i;j-- ) { //
+		for (int j=n-1;j>i;j-- ) { //공백 찍는용도
 			System.out.print(" ");
 		}
-		for(int j=0 ; j<=2*i;j++) {
+		for(int j=0 ; j<=2*i;j++) { //별이 2개씩늘어나므로 2*i
 			System.out.print("★");
 		}
 
