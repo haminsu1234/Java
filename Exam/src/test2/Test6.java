@@ -39,10 +39,7 @@ public class Test6 {
 		int b =input(sc,"b");
 		
 		int output = add(a,b);
-		result(output);
-		
-		
-		
+		result(output);	
 	}
 	
 }

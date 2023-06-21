@@ -12,7 +12,7 @@ public class Test8 {
 		System.out.println("4! = "+factorial(4));
 		System.out.println("5! = "+factorial(5));
 	}
-	
+	// 재귀
 	public static int factorial(int n) {
 		
 		if(n<=1) {
