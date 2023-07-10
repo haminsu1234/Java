@@ -11,7 +11,6 @@ public class Level05 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader  br= new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n =Integer.parseInt(st.nextToken()); //바구니갯수
@@ -28,17 +27,16 @@ public class Level05 {
 			start = Integer.parseInt(st2.nextToken());
 			end = Integer.parseInt(st2.nextToken());
 			k =Integer.parseInt(st2.nextToken());
+			
+			for(int i=start-1;i<end;i++) {
+				arr[i]=k;
+				}			
 			}
 			
-		
-		
-		
-		
-		
-		
-		
-		bw.flush();
+		for (int i=0; i<n;i++) {
+			System.out.print(arr[i]+" ");
+		}
+
 		br.close();
-		bw.close();
 	}
 }
