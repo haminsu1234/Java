@@ -15,6 +15,7 @@ public class Level07 {
 		public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		
 		int n =Integer.parseInt(br.readLine());
 		String st;
 		int count =n ; //연속문자 총숫자
@@ -22,9 +23,22 @@ public class Level07 {
 		
 		for(int i=0; i<n ; i++) { //단어 입력받음
 			st = br.readLine();
-			boolean
+			boolean alpa[] = new boolean [26];
 			
+			for(int j=0; j < st.length()-1; j++) {
+				if(st.charAt(j)!=st.charAt(j+1)) {
+					if(alpa[st.charAt(j+1)-97]==true) {
+						count--;
+						break;
+					}
+				}
+				alpa[st.charAt(j)-97]=true;
+
+				}
+				
+			}
+
+		System.out.println(count);
 			
 		}
-}
 }

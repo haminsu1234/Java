@@ -37,7 +37,7 @@ public class SelectTest {
 			ResultSet rs =stmt.executeQuery(sql);
 			
 			//5단계 : 결과처리 (select 경우)
-			while(rs.next()) {
+			while(rs.next()) { // boolean 을 리턴하는데 다음 레코드가 존재하면 true 반환 
 				
 				String uid =rs.getString(1);
 				String name =rs.getString(2);
