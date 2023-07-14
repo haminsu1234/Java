@@ -8,6 +8,25 @@ public class OrderVO {
 	private int ordercount;
 	private String orderdate;
 	
+	//추가필드
+	private String name;
+	private String prodname;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getProdname() {
+		return prodname;
+	}
+	public void setProdname(String prodname) {
+		this.prodname = prodname;
+	}
+	
+	
 	public int getOrderno() {
 		return orderno;
 	}
@@ -42,5 +61,10 @@ public class OrderVO {
 	public void setOrderdate(String orderdate) {
 		this.orderdate = orderdate;
 	}
+
+	public String toString() {
+		return orderno+","+orderid+","+orderproduct+","+ordercount+","+orderdate;
 	
+	}
+
 }

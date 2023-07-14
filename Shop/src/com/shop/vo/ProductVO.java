@@ -6,7 +6,7 @@ public class ProductVO {
 	private String prodname;
 	private int stock;
 	private int price;
-	private int company;
+	private String company;
 	
 	public int getProdno() {
 		return prodno;
@@ -36,13 +36,17 @@ public class ProductVO {
 		this.price = price;
 	}
 	
-	public int getCompany() {
+	public String getCompany() {
 		return company;
 	}
-	public void setCompany(int company) {
+	public void setCompany(String company) {
 		this.company = company;
 	}
 	
-	
+	public String toString() {
+			
+			return prodno+","+prodname+","+stock+","+price+","+company;
+		
+	}
 
 }
