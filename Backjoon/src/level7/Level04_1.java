@@ -28,20 +28,19 @@ public class Level04_1 {
     	
     	for (int i=0; i<100;i++) {
     		for(int j=0; j<100;j++) {
-    			if(area[i][j]>=n) { //세개가 겹칠수도 있기때문에 count 2씩증가
+    			if(area[i][j]>=n) { //전부다 겹치는부분
     				count+=n-1;
-    			}/*else if(area[i][j]==n-1) { //두개가겹칠때
-    				count+=1;
-    			}*/
+    		}else if(area[i][j]>=2) {
+    				count+=area[i][j]-1;
     		}
     	}
-    	
+    	}	
     	int area2 = n*100-count;
     	
     	System.out.println(area2);
     	
     	
-    }
+    
  }
-
+}
 
