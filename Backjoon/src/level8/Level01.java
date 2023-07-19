@@ -9,11 +9,14 @@ public class Level01 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine()," ");
-		String str =st.nextToken();
+		String str =st.nextToken();		
 		int n =Integer.parseInt(st.nextToken());
-		int c =Integer.p
 		
+		int change =Integer.parseInt(str, n);
+		
+		System.out.println(change);
+
+
 		
 	}
 }
-1111111111111111111111111
