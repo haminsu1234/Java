@@ -24,14 +24,16 @@ public class Level03 {
 				if(c%25>=10) {
 					dime= (c%25)/10;
 					if((c%25)%10>=5) {
-						nickel=(c%25)/5;
+						nickel=((c%25)%10)/5;
 					}else {
-						penny=(c%25)/1;
+						penny=((c%25)%10)/1;
 					}
 				}else if(c%25>=5) {
 					nickel=(c%25)/5;
-					if()
-				}else {
+					if((c%25)%5>=1) {
+						penny=((c%25)%5)/1;
+					}
+				}else if(c%25>=1) {
 					penny=(c%25)/1;
 				}
 				
@@ -40,6 +42,7 @@ public class Level03 {
 				dime=c/10;
 				if(c%10>=5) {
 					nickel=(c%10)/5;
+				
 				}else {
 					penny=(c%10)/1;
 
