@@ -12,6 +12,15 @@ public class Level05 {
 		int count =1;
 		int area =2;
 		
+		if(n==1) {
+			System.out.println(1);
+		}else {
+			while(area<=n) {
+				area =area + (count*6);
+				count++;
+			}
+			System.out.println(count);
+		}
 		
 	
 	}
