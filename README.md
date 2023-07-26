@@ -4,6 +4,9 @@
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
 </div>
 
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=hams9876)](https://solved.ac/hams9876)
+
 ## Ch01.Java 소개 및 개발환경구축
     1.HelloWorld 실습하기
 
