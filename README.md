@@ -2,6 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Eclips IDE-007396?style=flat&logo=#2C2255&logoColor=white" />
 </div>
 
 [![Solved.ac
